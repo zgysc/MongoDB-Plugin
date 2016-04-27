@@ -12,7 +12,6 @@ import org.bson.conversions.Bson;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 /**
  * 创建人:T-baby
@@ -21,8 +20,6 @@ import java.util.logging.Logger;
  */
 public class MongoKit {
 
-
-    protected final Logger logger = Logger.getLogger(this.getClass().getName());
 
     private static MongoClient client;
     private static MongoDatabase defaultDb;
